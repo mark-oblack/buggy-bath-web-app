@@ -5,40 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sweet Tooth Cookies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 <body>
-    <header id="main-header" class="text-light bg-dark text-center py-3">
-        <h1 class="h3">Sweet Tooth Cookies</ class="h2">
+    <header id="main-header" class="text-dark bg-light text-center py-3 sticky-top">
+        <h1 class="h3">Sweet Tooth Cookies</h1>
     </header>
-    <ul class="navbar navbar-dark bg-dark fixed-bottom mb-0 py-3">
+    <ul id="footer-nav" class="navbar bg-light d-flex justify-content-around fixed-bottom mb-0 py-3">
         <li class="nav-item d-flex flex-column text-center">
-            <a href="#" class="text-light">
+            <a href="#" class="text-dark nav-link">
                 <i class="fas fa-cookie-bite"></i>
                 <p class="mb-0">Cookies</p>
             </a>
         </li>
         <li class="nav-item d-flex flex-column text-center">
-            <a href="#" class="text-light">
+            <a href="#" class="text-dark nav-link">
                 <i class="fas fa-money-bill-alt"></i>
                 <p class="mb-0">Coupons</p>
             </a>
         </li>
         <li class="nav-item d-flex flex-column text-center">
-            <a href="#" class="text-light">
+            <a href="#" class="text-dark nav-link">
                 <i class="fas fa-map-marker-alt"></i>
                 <p class="mb-0">Location</p>
             </a>
         </li>
     </ul>
-    <div class="card" style="width: 100%;">
-        <img src="assets/chocolate-chip-297x500.jpg" class="card-img-top" alt="Chocolate chip cookie">
-        <div class="card-body">
-            <p class="card-text">Chocolate Chip</p>
+    <form class="form-inline my-3 mx-3">
+        <div class="col">
+            <label class="sr-only" for="inlineFormInputGroup">Search</label>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </div>
         </div>
+    </form>
+    <div class="card" style="width: 100%;">
+        <a href="chocolate-chip.html">
+            <img src="assets/chocolate-chip-126x400.jpg" class="card-img-top" alt="Chocolate chip cookie">
+            <div class="card-body">
+                <p class="card-text">Chocolate Chip</p>
+            </div>
+        </a>
+    </div>
+    <div class="card" style="width: 100%;">
+        <a href="#">
+            <img src="assets/oatmeal-raisin-126x400.jpg" class="card-img-top" alt="Oatmeal raisin cookie">
+            <div class="card-body">
+                <p class="card-text">Oatmeal Raisin</p>
+            </div>
+        </a>
+    </div>
+    <div class="card" style="width: 100%;">
+        <a href="#">
+            <img src="assets/sugar-cookie-126x400.jpg" class="card-img-top" alt="Sugar cookie">
+            <div class="card-body">
+                <p class="card-text">Sugar Cookie</p>
+            </div>
+        </a>
+    </div>
+    <div class="card" style="width: 100%; margin-bottom: 96px;">
+        <a href="#">
+            <img src="assets/peanut-butter-126x400.jpg" class="card-img-top" alt="Peanut butter cookie">
+            <div class="card-body">
+                <p class="card-text">Peanut Butter</p>
+            </div>
+        </a>
     </div>
 </body>
 </html>
