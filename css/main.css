@@ -25,11 +25,6 @@ body, html, #footer-nav {
     color: #795548 !important;
 }
 
-a.text-dark:hover {
-    color: #3E2723 !important;
-    transition: 0.2s ease;
-}
-
 .card-text {
     color: #795548 !important;
 }
@@ -43,6 +38,19 @@ a.text-dark:hover {
     color: #0984e3 !important;
 }
 
+.btn {
+    background-color: #795548;
+}
+
+.btn:hover {
+    background-color: #5D4037;
+    transition: 0.2s ease;
+}
+
+a.text-dark:hover {
+    color: #5D4037 !important;
+    transition: 0.2s ease;
+}
 
 
 /*=======================================
