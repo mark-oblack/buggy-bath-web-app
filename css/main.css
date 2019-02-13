@@ -2,10 +2,12 @@
 Fonts
 =======================================*/
 @import url("https://use.typekit.net/moc0jjd.css");
+
+
+
 /*=======================================
 Main Styles
 =======================================*/
-
 body, html, #footer-nav {
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
@@ -15,19 +17,12 @@ body, html, #footer-nav {
     max-width: 500px !important;
 }
 
-#main-header {
-    color: #6D4C41 !important;
-    font-family: regulator-nova, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
-
 .bg-light {
     background-color: #F1F2F7 !important;
 }
 
 .text-dark {
-    color: #6D4C41 !important;
+    color: #795548 !important;
 }
 
 a.text-dark:hover {
@@ -36,15 +31,41 @@ a.text-dark:hover {
 }
 
 .card-text {
-    color: #6d4c41 !important;
+    color: #795548 !important;
 }
 
 .input-group-text {
-    background-color: #6D4C41;
+    background-color: #795548;
     color: #fff;
 }
 
+.active {
+    color: #0984e3 !important;
+}
+
+
+
+/*=======================================
+Header Styles
+=======================================*/
+#main-header {
+    color: #795548 !important;
+    font-family: regulator-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+
+/*=======================================
+Cookie Page Styles
+=======================================*/
 #choc-chip-jumbo {
-    background-image: url('../assets/chocolate-chip-297x500.jpg');
+    background-image: url('../assets/chocolate-chip.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
