@@ -17,6 +17,19 @@ body, html, #footer-nav {
     max-width: 500px !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #795548;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700 !important;
+    font-style: normal;
+}
+
+#main-header h1 {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .bg-light {
     background-color: #F1F2F7 !important;
 }
