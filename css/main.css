@@ -25,8 +25,18 @@ body, html, #footer-nav {
     color: #795548 !important;
 }
 
+.card {
+    border: none;
+    border-radius: 0px;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
 .card-text {
-    color: #795548 !important;
+    color: #795548;
+    font-weight: 600;
 }
 
 .input-group-text {
@@ -47,10 +57,16 @@ body, html, #footer-nav {
     transition: 0.2s ease;
 }
 
+a:hover {
+    text-decoration: none !important;
+}
+
 a.text-dark:hover {
     color: #5D4037 !important;
     transition: 0.2s ease;
 }
+
+
 
 
 /*=======================================
