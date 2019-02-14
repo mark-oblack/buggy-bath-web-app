@@ -77,3 +77,21 @@ Cookie Page Styles
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+
+/*=======================================
+Google Maps Styles
+=======================================*/
+.mapouter {
+    text-align:right;
+    height:200px;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:200px;
+    width:100%;
+}

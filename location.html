@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="main-header" class="text-dark bg-light text-center py-2 sticky-top">
+        <a href="index.html" class="text-dark nav-link">
+            <img class="logo" src="assets/sweet-tooth-logo.svg" alt="Sweet Tooth Logo">
+            <h1 class="h3">Sweet Tooth Cookies</h1>
+        </a>
+    </header>
+    <ul id="footer-nav" class="navbar bg-light d-flex justify-content-around fixed-bottom mb-0">
+        <li class="nav-item d-flex flex-column text-center">
+            <a href="index.html" class="text-dark nav-link">
+                <i class="fas fa-cookie-bite"></i>
+                <p class="mb-0">Cookies</p>
+            </a>
+        </li>
+        <li class="nav-item d-flex flex-column text-center">
+            <a href="#" class="text-dark nav-link">
+                <i class="fas fa-money-bill-alt"></i>
+                <p class="mb-0">Coupons</p>
+            </a>
+        </li>
+        <li class="nav-item d-flex flex-column text-center">
+            <a href="location.html" class="text-dark nav-link active">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="mb-0">Location</p>
+            </a>
+        </li>
+    </ul>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=give%20mia%20cookie&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="h3 my-2">Hours</h2>
+        <p>Monday: 9 a.m.&mdash;7 p.m.</p>
+        <p>Tuesday: 9 a.m.&mdash;7 p.m.</p>
+        <p>Wednesday: 9 a.m.&mdash;7 p.m.</p>
+        <p>Thursday: 9 a.m.&mdash;7 p.m.</p>
+        <p>Friday: 9 a.m.&mdash;5 p.m.</p>
+        <p>Saturday: 9 a.m.&mdash;8 p.m.</p>
+        <p>Sunday: 10 a.m.&mdash;4 p.m.</p>
+    </div>
+</body>
+</html>
