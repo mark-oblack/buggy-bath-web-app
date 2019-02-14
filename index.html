@@ -110,21 +110,21 @@
             </div>
         </a>
     </div>
-</body>
-<script src="js/vendor/jquery.js"></script>
-<script>
-    /**Staying in full screen mode on the iPhone from page to page
-    http://miketheindian.com/2012/02/22/staying-in-full-screen-mode-on-the-iphone-from-page-to-page/
-    **/
-    function fullscreen() {
-    $('a').click(function() {
-    if(!$(this).hasClass('noeffect')) {
-    window.location = $(this).attr('href');
-    return false;
-    }
-    });
-    }
+    <script src="js/vendor/jquery.js"></script>
+    <script>
+        /**Staying in full screen mode on the iPhone from page to page
+        http://miketheindian.com/2012/02/22/staying-in-full-screen-mode-on-the-iphone-from-page-to-page/
+        **/
+        function fullscreen() {
+        $('a').click(function() {
+        if(!$(this).hasClass('noeffect')) {
+        window.location = $(this).attr('href');
+        return false;
+        }
+        });
+        }
 
-    fullscreen();
-</script>
+        fullscreen();
+    </script>
+</body>
 </html>
