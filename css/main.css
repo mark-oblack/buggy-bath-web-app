@@ -108,6 +108,11 @@ Header Styles
     width: 50px;
 }
 
+#return-home {
+    font-size: 1.2rem;
+    position: absolute;
+}
+
 
 
 /*=======================================
