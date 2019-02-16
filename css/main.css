@@ -17,10 +17,14 @@ body, html, #footer-nav {
     max-width: 500px !important;
 }
 
+td {
+    color: #212529;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #795548;
     font-family: proxima-nova, sans-serif;
-    font-weight: 700 !important;
+    font-weight: 300 !important;
     font-style: normal;
 }
 
@@ -28,6 +32,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: regulator-nova, sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.home-item {
+    color: #795548 !important;
+    font-weight: 600 !important;
 }
 
 .bg-light {
@@ -48,8 +57,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-text {
-    color: #795548;
-    font-weight: 600;
+    color: #3d3d3d;
+    font-weight: 400;
 }
 
 .input-group-text {
@@ -63,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     background-color: #795548;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 .btn:hover {
