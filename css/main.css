@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-text {
-    color: #3d3d3d;
     font-weight: 400;
 }
 
@@ -116,6 +115,24 @@ Cookie Page Styles
 =======================================*/
 #choc-chip-jumbo {
     background-image: url('../assets/chocolate-chip.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#or-jumbo {
+    background-image: url('../assets/oatmeal-raisin-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sugar-jumbo {
+    background-image: url('../assets/sugar-cookies.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pb-jumbo {
+    background-image: url('../assets/peanut-butter.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
